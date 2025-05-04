@@ -17,9 +17,14 @@ Also handles missing icons gracefully, so it never crashes. 🔥
 ---
 
 ## 🖥️ Demo (Screenshots)
-| Select File           | Preview & Convert         |
-|-----------------------|---------------------------|
-| ![Select File](preview1.png) | ![Preview Convert](preview2.png) |
+| Screenshot 1           | Screenshot 2           |
+|------------------------|------------------------|
+| ![Screenshot 1](screenshot1.png) | ![Screenshot 2](screenshot2.png) |
+
+| Screenshot 3           | Screenshot 4           |
+|------------------------|------------------------|
+| ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
+
 
 ---
 
@@ -28,3 +33,16 @@ Also handles missing icons gracefully, so it never crashes. 🔥
 - Install dependencies:
   ```bash
   pip install pillow fpdf2 pdf2image
+📦 Supported Conversions
+From	To Options
+JPG, JPEG	PNG, PDF
+PNG	JPG, PDF
+PDF	JPG, PNG
+
+🙌 Credits
+Built with 💙 using Python, Tkinter, and Pillow
+
+PDF preview powered by pdf2image
+
+📄 License
+This project is open source and available under the MIT License.
